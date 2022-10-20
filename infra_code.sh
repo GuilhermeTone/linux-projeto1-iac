@@ -25,9 +25,9 @@ adduser roberto GRP_VEN
 adduser josefina GRP_SEC
 adduser amanda GRP_SEC
 adduser rogerio GRP_SEC
-chown :root /adm
-chown :root /ven
-chown :root /sec
+chown :GRP_ADM /adm
+chown :GRP_VEN /ven
+chown :GRP_SEC /sec
 chmod g+rwx /adm
 chmod g+rwx /ven
 chmod g+rwx /sec
